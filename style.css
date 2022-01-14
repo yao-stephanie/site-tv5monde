@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-site{
+    background-color: #141430;
+}
+
+.navbar-anim{
+    background-color: transparent;
+}
+
+.logo{
+    width: 80;
+    height: 80px;
+}
+
+.icone2{
+    margin: 0 20px;
+}
+
+.div-image{
+    position: relative;
+}
+
+.block-text{
+    width: 600px;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    color: #fff;
+}
+
+.btn-lg{
+    margin-bottom: 20px;
+}
+
+.title{
+    font-size: 50px;
+    font-family: 'Prata', serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.paragraphe{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.row{
+    padding: 70px 0;
+}
+
+#affiche{
+    display: flex;
+    flex-direction: row;
+}
+
