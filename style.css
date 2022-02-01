@@ -54,8 +54,121 @@
     padding: 70px 0;
 }
 
-#affiche{
+#afficher{
     display: flex;
-    flex-direction: row;
+}
+span{
+    font-size: 30px;
+    color: #fff;
+    text-transform:uppercase;
 }
 
+.card_1{
+   min-width: 17%;
+  height: 66%;
+  background: whitesmoke;
+  margin: 0 20px 0 0;
+  border-radius: 20px;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
+
+} 
+
+section {
+    width: 100%;
+    height: 300px;
+    /* background: red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    margin-top: -91px;
+    margin-bottom: 30px;
+    
+  }
+  section::-webkit-scrollbar {
+    display: none;
+  }
+
+  .container_body_page2{
+      padding: 5px 16px 5px 31px;
+      margin-bottom: 50px;
+  }
+
+
+  .try_again {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 27px;
+  }
+
+.arrow_carousel{
+     
+    margin: 0 5px;
+    cursor: pointer;
+    color: white;
+     width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 3px;
+    z-index: 2000;
+    font-size: 40px;
+}
+  .left_arrow{
+    position: absolute;
+    left: 20px;
+    font-size: 100px;
+   
+  }
+.right_arrow{
+    position: absolute;
+    right: 20px;
+    font-size: 100px;
+   
+}
+
+.card_img{
+    height: 250px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+/* footer */
+
+footer{
+    color: #fff;
+}
+.footer_link {
+    text-decoration: none;
+    color: var(--color_text_white);
+    font-size: 13px;
+    display: block;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .titlelink_footer {
+    text-decoration: none;
+    color: var(--color_text_white);
+    font-weight: bold;
+    font-size: 17px;
+  }
+  footer .container_body_footer {
+    display: flex;
+    width: 929px;
+    margin: 0px auto;
+    padding-bottom: 25px;
+    padding-top: 32px;
+  }
+  .footer_case {
+    flex: 1;
+  }
+  footer {
+    background-color: var(--color_footer);
+  }
+  
